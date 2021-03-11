@@ -12,7 +12,16 @@ namespace GymBooking
         private int month;
         private int year;
         private int day;
-        private int time;
+        private int hour;
         private string room;
+
+        public Schedule(string Month, string Year, string Day, string Hour, string Room)
+        {
+            month = Month;
+            year = Year;
+            day = Day;
+            hour =Hour;
+            room = Room;
+        }
     }
 }
