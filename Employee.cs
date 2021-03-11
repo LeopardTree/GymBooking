@@ -8,14 +8,14 @@ namespace GymBooking
 {
     class Employee:Person
     {
-        private string _type;
+        private string _profession;
         private int _employeeID;
         private static int num = 0;
 
-        public Employee(string Name, string Phone, string Email, string Adress,string Type, int EmployeeID )
+        public Employee(string Name, string Phone, string Email, string Adress,string Profession, int EmployeeID )
                : base(Name, Phone, Email, Adress)
         {
-            this._type = Type;
+            this._profession = Profession;
             this._employeeID = EmployeeID;
         }
 
