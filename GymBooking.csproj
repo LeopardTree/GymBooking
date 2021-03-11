@@ -47,6 +47,7 @@
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
 	<Compile Include="Schedule.cs" />
+	<Compile Include="usecase_booking.uxf" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
