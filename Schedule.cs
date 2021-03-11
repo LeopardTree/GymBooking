@@ -9,19 +9,36 @@ namespace GymBooking
 {
     class Schedule
     {
-        private int month;
-        private int year;
-        private int day;
+        private string month;
+        private string year;
+        private string day;
         private int hour;
         private string room;
 
-        public Schedule(string Month, string Year, string Day, string Hour, string Room)
+        public Schedule(string Month, string Year, string Day, int Hour, string Room)
         {
             month = Month;
             year = Year;
             day = Day;
-            hour =Hour;
+            hour = Hour;
             room = Room;
         }
+        ////Accessors
+        //public string GetName()
+        //{
+        //    return _name;
+        //}
+        //public string GetPhone()
+        //{
+        //    return _phone;
+        //}
+        //public string GetEmail()
+        //{
+        //    return _email;
+        //}
+        //public string GetAdress()
+        //{
+        //    return _adress;
+        //}
     }
 }

@@ -46,6 +46,7 @@
     <Compile Include="Client.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
+	<Compile Include="Schedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
