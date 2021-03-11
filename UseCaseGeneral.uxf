@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>150</x>
+      <y>190</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Kund</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>620</x>
+      <y>230</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Admin</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>600</x>
+      <y>440</y>
+      <w>100</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Receptionist</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>650</x>
+      <y>40</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>aktiviteter
+--
+1. Registrera som kund
+2. Boka aktivitet
+3. Administrera bokningsschema
+4. Registrera trasiga maskiner
+5. Boka maskiner
+6. Meddela inställda pass via sms
+
+
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>300</x>
+      <y>120</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Registrera kund</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>310</x>
+      <y>240</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Boka aktivitet</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>360</x>
+      <y>50</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Administrera bokningsschema</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>320</x>
+      <y>460</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Registrera trasiga maskiner</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>170</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;50.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>230</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;120.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>100</y>
+      <w>140</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>13.0;10.0;120.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>270</y>
+      <w>190</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;200.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>350</x>
+      <y>650</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Meddela inställda pass via sms</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>330</y>
+      <w>150</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;330.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>280</y>
+      <w>180</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>160.0;200.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>160</y>
+      <w>220</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>200.0;260.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>960</x>
+      <y>40</y>
+      <w>300</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>beskrivning
+--
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+
+
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1280</x>
+      <y>40</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>aktörer
+--
+1. Kund, receptionist
+2. Kund, PT, Gruppcoach, Receptionist
+3. Admin
+4. Admin
+5. PT
+6. Admin
+
+
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>240</x>
+      <y>30</y>
+      <w>360</w>
+      <h>850</h>
+    </coordinates>
+    <panel_attributes>Bokningssystem
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
